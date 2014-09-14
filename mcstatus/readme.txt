@@ -33,6 +33,13 @@ Show parameters are:
 3. Add the widget to your widgetized sections
 
 
+== Language Localization ==
+
+Localization is ready. Currently, we support the following languages:
+- English
+- Russian
+
+
 == License ==
 
 This work is licensed under a GNU GPL v.2
