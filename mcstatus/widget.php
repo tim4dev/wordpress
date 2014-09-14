@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: MCstatus
-Plugin URI: https://github.com/tim4dev/wordpress/mcstatus
+Plugin URI: https://github.com/tim4dev/wordpress/tree/master/mcstatus
 Description: MCstatus is a WordPress Widget that enables you to show data from a Minecraft server.
 Author: Yuri Timofeev
 Version: 0.0.1
