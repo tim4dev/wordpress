@@ -1,0 +1,114 @@
+<table width="100%">
+    <tr>
+        <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+    <td colspan="2"><strong><?php _e("General options", 'mcstatus'); ?></strong></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr class="minestatus"></td>
+    </tr>
+    <tr>
+    <td width="20%"><?php _e("Title", 'mcstatus'); ?></td>
+        <td>
+            <input class="widefat" id="minestatus_title" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $instance['title']; ?>">
+        </td>
+    </tr>
+    <tr>
+    <td width="20%"><?php _e("Host", 'mcstatus'); ?></td>
+        <td>
+            <input class="widefat" id="minestatus_host" name="<?php echo $this->get_field_name('host'); ?>" type="text" value="<?php echo $instance['host']; ?>">
+        </td>
+    </tr>
+    <tr>
+    <td width="20%"><?php _e("Port", 'mcstatus'); ?></td>
+        <td>
+            <input class="widefat" id="minestatus_port" name="<?php echo $this->get_field_name('port'); ?>" type="text" value="<?php echo $instance['port']; ?>">
+        </td>
+    </tr>
+    <tr>
+    <td width="20%"><?php _e("Web Site", 'mcstatus'); ?></td>
+        <td>
+            <input class="widefat" id="minestatus_website" name="<?php echo $this->get_field_name('website'); ?>" type="text" value="<?php echo $instance['website']; ?>">
+        </td>
+    </tr>
+    <tr>
+    <td width="20%"><?php _e("DynMap", 'mcstatus'); ?></td>
+        <td>
+            <input class="widefat" id="minestatus_dynmap" name="<?php echo $this->get_field_name('dynmap'); ?>" type="text" value="<?php echo $instance['dynmap']; ?>">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr class="minestatus"></td>
+    </tr>
+    <tr>
+        <td colspan="2">&nbsp;</td>
+    </tr>
+</table>
+
+<table width="100%">
+    <tr>
+    <td colspan="2"><strong><?php _e("Display options", 'mcstatus'); ?></strong></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr class="minestatus"></td>
+    </tr>
+    <tr>
+    <td><?php _e("Show status", 'mcstatus'); ?></td>
+        <td style="text-align:right;">
+            <input id="minestatus_show_status" name="<?php echo $this->get_field_name('show_status'); ?>" type="checkbox" value="on" <?php echo ($instance['show_status'] == 'on') ? 'checked="checked"' : ''; ?>>
+        </td>
+    </tr>
+    <tr>
+    <td><?php _e("Show host", 'mcstatus'); ?></td>
+        <td style="text-align:right;">
+            <input id="minestatus_show_host" name="<?php echo $this->get_field_name('show_host'); ?>" type="checkbox" value="on" <?php echo ($instance['show_host'] == 'on') ? 'checked="checked"' : ''; ?>>
+        </td>
+    </tr>
+    <tr>
+    <td><?php _e("Show port", 'mcstatus'); ?></td>
+        <td style="text-align:right;">
+            <input id="minestatus_show_port" name="<?php echo $this->get_field_name('show_port'); ?>" type="checkbox" value="on" <?php echo ($instance['show_port'] == 'on') ? 'checked="checked"' : ''; ?>>
+        </td>
+    </tr>
+    <tr>
+    <td><?php _e("Show version", 'mcstatus'); ?></td>
+        <td style="text-align:right;">
+            <input id="minestatus_show_version" name="<?php echo $this->get_field_name('show_version'); ?>" type="checkbox" value="on" <?php echo ($instance['show_version'] == 'on') ? 'checked="checked"' : ''; ?>>
+        </td>
+    </tr>
+    <tr>
+    <td><?php _e("Show plugins", 'mcstatus'); ?></td>
+        <td style="text-align:right;">
+            <input id="minestatus_show_plugins" name="<?php echo $this->get_field_name('show_plugins'); ?>" type="checkbox" value="on" <?php echo ($instance['show_plugins'] == 'on') ? 'checked="checked"' : ''; ?>>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><hr class="minestatus"></td>
+    </tr>
+    <tr>
+    <td><?php _e("Show players", 'mcstatus'); ?></td>
+        <td style="text-align:right;">
+            <input id="minestatus_show_players" name="<?php echo $this->get_field_name('show_players'); ?>" type="checkbox" value="on" <?php echo ($instance['show_players'] == 'on') ? 'checked="checked"' : ''; ?>>
+        </td>
+    </tr>
+    <tr>
+    <td><?php _e("Show player list automatically", 'mcstatus'); ?></td>
+        <td style="text-align:right;">
+            <input id="minestatus_show_auto_players" name="<?php echo $this->get_field_name('show_auto_players'); ?>" type="checkbox" value="on" <?php echo ($instance['show_auto_players'] == 'on') ? 'checked="checked"' : ''; ?>>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr class="minestatus"></td>
+    </tr>
+</table>
+
+<style>
+    hr.minestatus {
+        border:0;
+        color:#D7D7D7;
+        background:#D7D7D7;
+        height:1px;
+    }
+</style>
