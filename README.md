@@ -1,4 +1,4 @@
-wordpress
+Wordpress
 =========
 
 Widgets, plugins, themes, etc.
