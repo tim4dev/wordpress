@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mcstatus\n"
-"POT-Creation-Date: 2014-09-14 01:16+0300\n"
-"PO-Revision-Date: 2014-09-14 01:17+0300\n"
+"POT-Creation-Date: 2014-09-14 11:12+0300\n"
+"PO-Revision-Date: 2014-09-14 11:12+0300\n"
 "Last-Translator: Yuri Timofeev <tim4dev@gmail.com>\n"
 "Language-Team:  <tim4dev@gmail.com>\n"
 "Language: ru\n"
@@ -78,11 +78,16 @@ msgstr "Раскрывать список игроков"
 msgid "Status"
 msgstr "Статус"
 
+#: ../mcstatus/templates/partials/online.phtml:6
+msgid "Online"
+msgstr "Работает"
+
 #: ../mcstatus/templates/partials/online.phtml:13
 msgid "Version"
 msgstr "Версия"
 
 #: ../mcstatus/templates/partials/online.phtml:17
+#: ../mcstatus/templates/partials/offline.phtml:15
 msgid "Website"
 msgstr "Вебсайт"
 
@@ -94,6 +99,7 @@ msgstr "Плагины"
 msgid "Plugins: <strong>Not found</strong>"
 msgstr "Плагины: <strong>Не найдены</strong>"
 
+#: ../mcstatus/templates/partials/online.phtml:42
 #: ../mcstatus/templates/partials/online.phtml:46
 msgid "Players"
 msgstr "Игроки"

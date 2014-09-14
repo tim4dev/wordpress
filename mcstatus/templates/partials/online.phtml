@@ -3,7 +3,7 @@
 <?php echo $args['before_widget']; ?>
 <?php echo $args['before_title'] . $instance['title'] . $args['after_title']; ?>
 <p>
-    <?php _e("Status", 'mcstatus'); ?>: <span style="color:green;font-weight:bold">Работает</span><br>
+    <?php _e("Status", 'mcstatus'); ?>: <span style="color:green;font-weight:bold"><?php _e("Online", 'mcstatus'); ?></span><br>
 
     <?php if (isset($instance['show_host']) && $instance['show_host'] == 'on'): ?>
         <?php _e("Host", 'mcstatus'); ?>: <strong><?php echo $server['server']['host'], ':', $server['server']['port']; ?></strong><br>
@@ -39,7 +39,7 @@
     <?php endif; ?>
 
     <?php if ($server['players'] > 0 && isset($instance['show_players']) && $instance['show_players'] == 'on') : ?>
-    <a href="javascript:toggleMcsList(<?php echo $randomPlayerList; ?>);">Игроки</a>:
+        <a href="javascript:toggleMcsList(<?php echo $randomPlayerList; ?>);"><?php _e("Players", 'mcstatus'); ?></a>:
     <strong><?php echo $server['server']['players_online']; ?>/<?php echo $server['server']['players_max']; ?></strong><br>
     <?php else : ?>
     <?php if (isset($instance['show_players']) && $instance['show_players']) : ?>
