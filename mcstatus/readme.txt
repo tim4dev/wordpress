@@ -1,24 +1,16 @@
-MC status
-=========
+=== Plugin Name ===
 Contributors: tim4dev
-
 Tags: minecraft,server,status,minequery,status,players,plugins,rest,api,bukkit,craftbukkit
-
 Requires at least: 3.0
-
 Tested up to: 4.0.0
-
 Stable tag: 0.0.1
 
 MCstatus is a WordPress Widget that enables you to show data from a Minecraft server.
 
-Description
-===========
+== Description ==
 
 MCstatus is a WordPress Widget that enables you to show data from a Minecraft server. 
-
 It basen on Minestatus (jeroenweustink) Wordpress widget.
-
 It uses the PHP-Minecraft-Query class (Pavel xPaw) to get server data.
 
 Show parameters are:
@@ -34,22 +26,19 @@ Show parameters are:
 </ul>
 
 
-Installation
-============
+== Installation ==
 
 1. Upload to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Add the widget to your widgetized sections
 
 
-License
-=======
+== License ==
 
 This work is licensed under a GNU GPL v.2
 
 
-Changelog
-=========
+== Changelog ==
 
-0.0.1
+= 0.0.1 =
 - First release.
