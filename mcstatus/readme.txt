@@ -36,13 +36,22 @@ Show parameters are:
 == Language Localization ==
 
 Localization is ready. Currently, we support the following languages:
-- English
-- Russian
+<ul>
+  <li>English</li>
+  <li>Russian</li>
+</li>
+
+
+== Screenshots ==
+
+1. Widget settings: screenshot-1.png
+2. Widget on page: screenshot-2.png
+3. Widget on page: screenshot-3.png
 
 
 == License ==
 
-This work is licensed under a GNU GPL v.2
+This work is licensed under a GNU GPLv2
 
 
 == Changelog ==
