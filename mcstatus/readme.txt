@@ -39,7 +39,7 @@ Localization is ready. Currently, we support the following languages:
 <ul>
   <li>English</li>
   <li>Russian</li>
-</li>
+</ul>
 
 
 == Screenshots ==
